@@ -16,7 +16,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/aquawise-ai-main/">
         <AuthProvider>
           <Routes>
             <Route path="/auth" element={<Auth />} />
